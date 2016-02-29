@@ -1,0 +1,214 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width:900px;
+    min-height: 700px;
+    border: 0px solid #ede080;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(image/Greenspring-backgrounds.jpg);
+    backgrouund-repeat:repeat;
+}
+
+
+header{
+    padding-top: 8px;
+    margin-top: 2px;
+    height: 120px;
+}
+
+header h1{
+    text-align:center;
+    margin-top: 25px;
+    padding-top: 5px;
+    color: #3c3535;
+    font-family:'Tangerine', serif;
+    font-size: 80px;
+    text-shadow: -4px -2px 4px #aaa;
+}
+
+#logo{
+    float: right;
+    clear: both;
+}
+
+nav{
+    padding-top: 15px;
+    padding-right: 30px;
+    height: 30px;
+    color: black;
+    text-align: right;
+}
+
+p::first-letter, article h3::first-letter, aside h3::first-letter{
+    color:#3c3535;
+    font-size: 50px;
+    font-family: 'Tangerine', serif;
+    font-weight: 800;
+}
+
+
+article.home{
+    float:left;
+    width: 380px;
+    height: auto;
+    line-height:1.5em;
+    font-family: tangerin;
+    padding-left: 230px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+article.product{
+    width: auto;
+    height: 100%;
+    padding-left: 220px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+article.contact{
+    float:left;
+    width: 250px;
+    height: auto;
+    font-family: tangerin;
+    padding-left: 230px;
+    padding-right: 10px;
+    text-align: justify;
+}
+
+aside{
+    float: right;
+    width: 25%;
+    min-height: 50px;
+    color: #506232;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 35px;
+}
+
+aside.contact{
+    float: right;
+    width: 280px;
+    height: auto;
+    padding-top: 1px;
+    padding-left: 10px;
+    padding-right: 80px;
+}
+
+
+footer{
+    clear: both;
+    color: #738071;
+    height: 50px;
+    padding-top: 15px;
+    padding-left: 640px;
+    padding-right: 20px;
+}
+
+a:link    {color:#000000; background-color:transparent; text-decoration:none}
+a:visited {color:#4a3d3d; background-color:transparent; text-decoration:none}
+a:hover   {color:#738071; background-color:transparent; text-decoration:none}
+a:active  {color:#738071; background-color:transparent; text-decoration:none}
+
+.button {
+    display:inline-block;
+    height: 30px;
+    width: 80px;
+    background: #abc7ac;
+    color: white;
+    text-align:center;
+    font: bold 15px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    background: linear-gradient(top, #aaa, white);
+    border-radius: 100px;
+    box-shadow: 4px -4px 4px #aaa;
+    text-shadow: 0 2px 2px white;
+}
+
+a.button {
+    text-decoration: none;
+}
+
+a.button:hover {
+    background: #8db551;
+}
+
+div.box{
+    float:left;
+    display: inline;
+    margin-left: 5px;
+    margin-bottom: 1px;
+    padding: 5px;
+    width: 200px;
+    height: 210px;
+    text-align: center;
+}
+
+div.box img{
+    display: inline;
+    width: 180px;
+    height: 180px;
+}
+
+div.desc{
+    text-align: center;
+    font-size: 14px;
+    width: 180px;
+    height: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+    
+.box img:hover{
+    position:relative;
+    width:300px;
+    height:auto;
+    z-index:999;}
+  
+.text_line{
+    clear: both;
+    height: 45px;
+}
+
+#giftlist{
+    border-collapse: collapse;
+    width: 100%;
+    line-height: normal;
+}
+
+#giftlist th, #giftlist td{
+    border: 1px solid #8c9f3c;
+    height: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+#giftlist th{
+    height: 30px;
+    color: black;
+    background-color: #8db551;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
